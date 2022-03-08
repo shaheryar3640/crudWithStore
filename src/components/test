@@ -1,0 +1,46 @@
+  // methods : {
+            // getResults(page = 1) {
+            //     let user = localStorage.getItem('token')
+            //     axios.get('http://127.0.0.1:8000/api/domain/index?page=' + page,{
+            //         headers:{
+            //             'Authorization' : 'Bearer ' + user
+            //         }
+            //     })
+            //         .then(response =>this.tdata = response.data
+            //         )
+            //         .catch(error => console.log(error))
+            // },
+            
+            // deleteData(id){
+            //     let user = localStorage.getItem('token')
+            //      axios.delete('http://127.0.0.1:8000/api/student/delete/'+id,{
+            //         headers:{
+            //             'Authorization' : 'Bearer ' + user
+            //         }
+            //     })
+            //     .then(response => {
+            //         if(response.data == true){
+            //             alert('Data Deleted Successfully')
+            //         this.getData()
+            //         }
+            //     })
+            // },
+            // async getData(){
+            //     let user = localStorage.getItem('token')
+            //     await axios.get('http://127.0.0.1:8000/api/domain/index',{
+            //         headers:{
+            //             'Authorization' : 'Bearer ' + user
+            //         }
+            //     })
+            //     .then(response => {
+            //         // console.log(response)
+            //         if(response.data.data){
+            //             this.tdata = response.data
+            //             // console.log(this.tdata.name)
+            //         }
+                    
+            //     })
+            //             // this.tdata = res.data
+            //             // console.log(res.data)
+            // }
+        // },
